@@ -2,7 +2,6 @@ package main
 
 import (
 	"net/http"
-	"github.com/danc2050/HaveIBeenExploited/AppRoot/searchcontract"
 )
 
 func main() {
