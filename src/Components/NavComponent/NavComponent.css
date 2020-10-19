@@ -1,0 +1,121 @@
+.nav-wrapper
+{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+    top:0px;
+    
+}
+.nav-logo
+{
+    background-color: red;
+    height: 60px;
+    width: 80px;
+    float:right;
+}
+.nav-bar
+{
+    position: relative;;
+    z-index:10;
+
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eaeaea+0,fff9f9+100 */
+background: rgb(234,234,234); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(234,234,234,1) 0%, rgba(255,249,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(234,234,234,1) 0%,rgba(255,249,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(234,234,234,1) 0%,rgba(255,249,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#fff9f9',GradientType=1 ); /* IE6-9 */
+
+    height: 60px;
+   
+
+    border-bottom:1px solid black;
+
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+
+}
+
+.nav-item
+{
+    color:black;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top:20px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.nav-item:hover
+{
+    transition: 1s linear background-color;
+    background-color: gainsboro;
+}
+
+
+
+
+@media (max-width:600px)
+{
+    .nav-bar
+    {
+        position: relative;;
+        z-index:10;
+    
+        
+        height: 60px;
+        width: 100%;
+    
+        border-bottom:1px solid black;
+    
+        display: grid;
+        grid-template-rows: 80px;
+        grid-template-columns: 80px 80px 80px 80px 80px 80px;
+    
+    }
+    
+    .nav-item
+    {
+        color:black;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        padding-top:20px;
+        height: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+    
+    }
+    .nav-item:hover
+    {
+        transition: 1s linear background-color;
+        background-color: gainsboro;
+    }
+    
+    .green
+    {
+        color: green;
+        font-weight: 200;
+    }
+    
+    .red
+    {
+        color: red;
+        font-weight: 100;
+    }
+    
+    .orange
+    {
+        color:orangered;
+        font-weight: 500;
+    }
+    
+    .purple
+    {
+        color:purple;
+        font-weight: 500;
+    }
+    
+}
